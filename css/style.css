@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding:0;
+    background: #001b2e;
+    background: linear-gradient(180deg, rgb(0, 27, 67) 14%, #0460e1 60%, rgb(0, 27, 67) 98%);
+    color: #fff;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-position: 100%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+    color:#FFF;
+    font-family:sans-serif;
+}
+
+  .container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .linkbio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 40px auto;
+    gap: 5px;
+  }
+  
+  .imglogo {
+    width: 150px;
+    height: 150px;
+    border: solid 2px #fff;
+    border-radius: 50%;
+    vertical-align: middle;
+    background: #fff;
+  }
+  
+  .iconf .iconf-a:hover {
+    background: rgba(0, 0, 0, 1);
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .iconf {
+    margin: 15px auto;
+    width: 60%;
+    text-align: center;
+   
+  }
+  
+  .iconf .iconf-a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 40px;
+    margin: 17px 0;
+    border: solid 2px #fff;
+    background: #000;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 4%, rgba(1, 119, 204, 1) 78%);
+  }
+  
+  .iconf .iconf-a i {
+    margin-right: 10px;
+    font-size: 23px;
+    line-height: 80%;
+  }
+  
+  .iconf .iconf-a h4 {
+    margin: 0;
+  }
+  
+  .iconf a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .linkbio {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .iconf {
+      width: 100%;
+    }
+  }
+  .bcgclipe{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+  
+  
